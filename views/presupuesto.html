@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <meta name="description" content="Solicita un presupuesto personalizado en Dulce Tentación.">
+    <title>Presupuestos | Dulce Tentación</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- Cabecera y navegación principal -->
+    <header class="site-header">
+        <a class="brand" href="../index.html" aria-label="Dulce Tentación, inicio"><span>Dulce <strong>Tentación</strong></span></a>
+        <nav class="main-nav" aria-label="Navegación principal">
+            <a href="../index.html">Inicio</a><a href="productos.html">Productos</a><a class="active" aria-current="page" href="presupuesto.html">Presupuestos</a><a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main class="page-main">
+        <section class="page-hero">
+            <p class="eyebrow">CUÉNTANOS TU IDEA</p>
+            <h1>Solicita tu presupuesto</h1>
+            <p>Rellena el formulario y cuéntanos qué dulce te gustaría encargar. Nos pondremos en contacto contigo.</p>
+        </section>
+        <section class="form-section">
+            <div class="form-intro"><p class="eyebrow">UN ENCARGO A TU MEDIDA</p><h2>Hagamos algo delicioso</h2><p>Cuantos más detalles nos des, mejor podremos preparar tu propuesta.</p></div>
+            <!-- Los atributos required y los tipos HTML5 validan los datos básicos del formulario -->
+            <form class="budget-form" action="#" method="get">
+                <div class="form-field">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" autocomplete="name" minlength="2" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="nombre@ejemplo.com" required>
+                </div>
+                <div class="form-field">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" autocomplete="tel" pattern="[0-9+() .-]{9,16}" title="Introduce un teléfono válido de entre 9 y 16 caracteres." required>
+                </div>
+                <div class="form-field">
+                    <label for="mensaje">Solicite más información</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" minlength="10" placeholder="Cuéntanos el tipo de producto, fecha, número de personas, sabores..." required></textarea>
+                </div>
+                <div class="privacy-box" id="privacidad">
+                    <input type="checkbox" id="aceptar-privacidad" name="aceptar-privacidad" required>
+                    <label for="aceptar-privacidad">He leído y acepto la <a href="#">política de privacidad</a>.</label>
+                </div>
+                <button class="button" type="submit">Enviar solicitud</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <section class="footer-brand"><a class="brand brand-footer" href="../index.html">Dulce <strong>Tentación</strong></a><p>Un poquito de dulzura cada día.</p></section>
+        <section class="footer-address"><h2>Visítanos</h2><p>Calle de las Flores, 12<br>29008 Málaga, España</p></section>
+        <section class="footer-social"><h2>Síguenos</h2><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><img src="../images/instagram.svg" alt="" aria-hidden="true" class="social-icon"></a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><img src="../images/facebook.svg" alt="" aria-hidden="true" class="social-icon"></a><a href="https://www.pinterest.com/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest"><img src="../images/pinterest.svg" alt="" aria-hidden="true" class="social-icon"></a></div></section>
+        <section class="footer-legal"><p>© 2026 Dulce Tentación · Proyecto académico ficticio</p><a href="#">Aviso legal</a> · <a href="#">Política de privacidad</a></section>
+    </footer>
+</body>
+</html>

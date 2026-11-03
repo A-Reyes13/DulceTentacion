@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650">
+<rect width="1000" height="650" fill="#f3eee3"/>
+<path d="M0 110 L1000 250 M-40 290 L1020 100 M30 520 L970 370 M230 -30 L350 700 M610 -30 L500 700 M850 -30 L730 700" stroke="#ffffff" stroke-width="28" fill="none"/>
+<path d="M0 110 L1000 250 M-40 290 L1020 100 M30 520 L970 370 M230 -30 L350 700 M610 -30 L500 700 M850 -30 L730 700" stroke="#d8cfc0" stroke-width="2" fill="none"/>
+<path d="M0 430 C150 390 180 320 310 330 S510 440 640 400 S850 280 1000 320" stroke="#b9d9df" stroke-width="35" fill="none"/>
+<path d="M0 430 C150 390 180 320 310 330 S510 440 640 400 S850 280 1000 320" stroke="#ffffff" stroke-width="3" fill="none"/>
+<g fill="#cfe0c1"><rect x="60" y="40" width="115" height="65" rx="8"/><rect x="390" y="60" width="110" height="70" rx="8"/><rect x="700" y="480" width="170" height="95" rx="8"/><rect x="70" y="550" width="130" height="65" rx="8"/><rect x="780" y="35" width="150" height="80" rx="8"/></g>
+<g font-family="Arial,sans-serif" font-size="25" fill="#746b61"><text x="60" y="180">Málaga</text><text x="410" y="520">Centro</text><text x="710" y="210">Calles principales</text></g>
+<g transform="translate(510 310)"><circle r="34" fill="#a94f63" opacity=".2"/><path d="M0 -44 C-25 -44 -40 -25 -40 -4 C-40 22 0 54 0 54 S40 22 40 -4 C40 -25 25 -44 0 -44Z" fill="#a94f63"/><circle cy="-7" r="13" fill="#ffffff"/></g>
+<rect x="18" y="18" width="964" height="614" rx="8" fill="none" stroke="#d8cfc0" stroke-width="3"/>
+</svg>
